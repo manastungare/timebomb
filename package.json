@@ -1,0 +1,40 @@
+{
+  "name": "timebomb",
+  "version": "0.1",
+  "description": "TimeBomb: Email Expiration",
+  "main": "timebomb.js",
+  "keywords": [
+    "email",
+    "expiration",
+    "pim"
+    "timebomb",
+  ],
+  "maintainers": [
+    {
+      "name": "Manas Tungare",
+      "email": "manas@tungare.name",
+      "web": "http://manas.tungare.name/"
+    }
+  ],
+  "bugs": {
+    "mail": "manas@tungare.name",
+    "web": "http://manas.tungare.name/"
+  },
+  "licenses": [
+    {
+      "type": "All Rights Reserved",
+      "url": "http://manas.tungare.name/"
+    }
+  ],
+  "dependencies": {
+    "imap": ">=0.2.7",
+    "read": ">=0.0.2",
+    "util": ">=0.4.9"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "implements": [
+    "timebomb"
+  ]
+}
