@@ -1,13 +1,13 @@
 {
   "name": "timebomb",
-  "version": "0.1",
+  "version": "0.1.1",
   "description": "TimeBomb: Email Expiration",
   "main": "timebomb.js",
   "keywords": [
     "email",
     "expiration",
-    "pim"
-    "timebomb",
+    "pim",
+    "timebomb"
   ],
   "maintainers": [
     {
@@ -22,10 +22,14 @@
   },
   "licenses": [
     {
-      "type": "All Rights Reserved",
-      "url": "http://manas.tungare.name/"
+      "type": "MIT",
+      "url": "http://github.com/manastungare/timebomb/raw/master/LICENSE"
     }
   ],
+  "repository" : {
+    "type": "git",
+    "url": "http://github.com/manastungare/timebomb.git"
+  },
   "dependencies": {
     "imap": ">=0.2.7",
     "read": ">=0.0.2",

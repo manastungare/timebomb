@@ -1,6 +1,6 @@
 /**
  * TimeBomb: A library for expiring emails after a set due date.
- * Copyright 2012 Manas Tungare. All Rights Reserved.
+ * Copyright 2012 Manas Tungare.
  * http://manas.tungare.name/publications/tungare_2009_best
  */
 

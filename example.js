@@ -1,11 +1,10 @@
 /**
  * TimeBomb: A library for expiring emails after a set due date.
- * Copyright 2012 Manas Tungare. All Rights Reserved.
+ * Copyright 2012 Manas Tungare.
  *
  * This file contains a sample of how the library can be used. A detailed syntax for filters is
  * available at <https://github.com/mscdex/node-imap>.
  *
- * The library is still a work-in-progress, and the license only permits private, personal use.
  */
 
 var read = require('read'),
