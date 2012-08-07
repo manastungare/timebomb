@@ -1,6 +1,6 @@
 {
   "name": "timebomb",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "TimeBomb: Email Expiration",
   "main": "timebomb.js",
   "keywords": [

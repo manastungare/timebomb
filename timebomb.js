@@ -78,6 +78,9 @@
     util.log(util.format('Applying %s rules...', rules.length));
     for (var i = 0; i < rules.length; i++) {
       (function(rule) {
+        if (!rule.name) {
+          rule.name = rule.label;
+        }
         // Create a filter using criteria provided by user, plus TTL.
         var earliestAcceptableDate = new Date(now.getTime() - ONE_DAY_MS * rule.ttl);
         var filter = ['ALL', ['BEFORE', earliestAcceptableDate]].concat(rule.filter);
@@ -114,7 +117,7 @@
                 '1 message' :
                 messagesToLabel.length + ' messages')),
         rule.name,
-        ((messagesToLabel.length > 0) ? '; applying label "' + rule.label : '"')
+        ((messagesToLabel.length > 0) ? '; applying label "' + rule.label + '"': '"')
         ));
 
     if (messagesToLabel.length == 0) {
